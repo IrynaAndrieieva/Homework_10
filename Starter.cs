@@ -6,11 +6,7 @@ using System.Threading.Tasks;
 
 namespace Homework_10
 {
-    class Program
+    class Starter
     {
-        static void Main(string[] args)
-        {
-            var Starter = new Starter();
-        }
     }
 }
