@@ -15,15 +15,5 @@ namespace Homework_10
 
         public abstract TypeOfPassengerCar TypeOfPassengerCar { get; }
 
-        public int CompareTo(PassengerCar obj)
-        {
-            if (this.Consumption > obj.Consumption)
-                return 1;
-            if (this.Consumption < obj.Consumption)
-                return -1;
-            else
-                return 0;
-        }
-
     }
 }

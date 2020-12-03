@@ -6,9 +6,25 @@ using System.Threading.Tasks;
 
 namespace Homework_10
 {
-    public class PassengerCarComparer /*: IComparable*/ // не работает
+   
+    //public class PassengerCarComparer : IComparable 
+    //{
+    //    PassengerCar passengerCar = new PassengerCar();
+    //    public int CompareTo(object o)
+    //    {
+    //        PassengerCar p = o as PassengerCar;
+    //        if (p != null)
+    //            return this.fullPrice.CompareTo(this.fullPrice);
+    //        else
+    //            throw new Exception("Невозможно сравнить два объекта");
+    //    }
+
+    //}
+
+    public class PassengerCarComparer : IComparer
     {
-        public int passengerCarComparer(object first, object second)
+        
+        public int Compare(object first, object second)
         {
             var x = first as PassengerCar;
             var y = second as PassengerCar;
@@ -27,21 +43,6 @@ namespace Homework_10
             }
         }
     }
-    
-    /*
-    public class PassengerCarComparer : IComparable
-    {
-        FullPriceServis fullPriceServis  = new FullPriceServis();
-        public int passengerCarComparer(object o)
-        {
-            PassengerCarComparer p = o as fullPriceServis;
-            if (p != null)
-                return this.Consumption.CompareTo(p.Consumption);
-            else
-                throw new Exception("Невозможно сравнить два объекта");
-        }
 
-    }
-    */
 }
 
