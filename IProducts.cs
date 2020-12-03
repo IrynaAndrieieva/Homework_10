@@ -16,7 +16,7 @@ namespace Homework_10
 
             double Сonsumption { get; } // расход топлива
 
-            string CreatedBy { get; }
+            string CreatedBy { get; } // изготовитель
 
         }
     }
