@@ -18,14 +18,15 @@ namespace Homework_10
         public void Run()
         {
             var fullPrise = this.fullPriceServis.MakeCost();
-            Array.Sort(fullPrise.PassengerCar, new PassengerCarComparer());
+            //Array.Sort(fullPrise.PassengerCar, new PassengerCarComparer());
 
             for (int i = 0; i < fullPrise.PassengerCar.Length; i++)
             {
-                Console.WriteLine($"Name: {fullPrise.PassengerCar[i].Name}");
+                Console.WriteLine($"\nName: {fullPrise.PassengerCar[i].Name} \nСonsumption: {fullPrise.PassengerCar[i].Consumption}");
             }
-
+            Console.WriteLine("_____________________________");
             Console.WriteLine($"The cost of cars in the fleet: {fullPrise.Price}");
+            Console.ReadKey();
         }
     }
 }
