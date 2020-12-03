@@ -22,7 +22,7 @@ namespace Homework_10
 
             for (int i = 0; i < fullPrise.PassengerCar.Length; i++)
             {
-                Console.WriteLine($"\nName: {fullPrise.PassengerCar[i].Name} \nСonsumption: {fullPrise.PassengerCar[i].Consumption}");
+                Console.WriteLine($"\nName: {fullPrise.PassengerCar[i].Name} \nСonsumption: {fullPrise.PassengerCar[i].Consumption} \nPrice: {fullPrise.PassengerCar[i].Price}");
             }
             Console.WriteLine("_____________________________");
             Console.WriteLine($"The cost of cars in the fleet: {fullPrise.Price}");
