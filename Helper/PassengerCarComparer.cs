@@ -6,6 +6,28 @@ using System.Threading.Tasks;
 
 namespace Homework_10
 {
+    public class PassengerCarComparer /*: IComparable*/ // не работает
+    {
+        public int passengerCarComparer(object first, object second)
+        {
+            var x = first as PassengerCar;
+            var y = second as PassengerCar;
+
+            if (x.Consumption > y.Consumption)
+            {
+                return 1;
+            }
+            else if (x.Consumption < y.Consumption)
+            {
+                return -1;
+            }
+            else
+            {
+                return 0;
+            }
+        }
+    }
+    
     /*
     public class PassengerCarComparer : IComparable
     {
