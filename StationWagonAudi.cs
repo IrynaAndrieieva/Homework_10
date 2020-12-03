@@ -6,7 +6,17 @@ using System.Threading.Tasks;
 
 namespace Homework_10
 {
-    class StationWagonAudi
+    public class StationWagonAudi : PassengerCar
     {
+        public StationWagonAudi(double consumption, string createdBy)
+            : base(consumption, createdBy)
+        {
+        }
+
+        public override TypeOfPassengerCar TypeOfPassengerCar => TypeOfPassengerCar.Hatchback;
+
+        public override string Name => "Station Wagon Audi A6";
+
+        public override double Price => 75000;
     }
 }
