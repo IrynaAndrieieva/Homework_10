@@ -13,7 +13,7 @@ namespace Homework_10
         {
         }
 
-        public override TypeOfPassengerCar TypeOfPassengerCar => TypeOfPassengerCar.Hatchback;
+        public override TypeOfPassengerCar TypeOfPassengerCar => TypeOfPassengerCar.SUV;
 
         public override string Name => "SUV Mercedes-Benz E-Class C238";
 
