@@ -44,8 +44,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Car.cs" />
+    <Compile Include="FullPrice.cs" />
+    <Compile Include="FullPriceServis.cs" />
     <Compile Include="HatchbackJaguar.cs" />
     <Compile Include="IComparer.cs" />
+    <Compile Include="IFullPriceServis.cs" />
     <Compile Include="PassengerCarComparer.cs" />
     <Compile Include="PassengerCar.cs" />
     <Compile Include="StationWagonAudi.cs" />
