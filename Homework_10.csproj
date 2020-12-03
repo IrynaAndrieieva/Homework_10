@@ -47,6 +47,7 @@
     <Compile Include="HatchbackJaguar.cs" />
     <Compile Include="PassengerCar.cs" />
     <Compile Include="StationWagonAudi.cs" />
+    <Compile Include="SUVMercedBesenz.cs" />
     <Compile Include="TypeOfPassengerCar.cs" />
     <Compile Include="Сabstand.cs" />
     <Compile Include="IProducts.cs" />
