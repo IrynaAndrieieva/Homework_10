@@ -47,7 +47,6 @@
     <Compile Include="FullPrice.cs" />
     <Compile Include="FullPriceServis.cs" />
     <Compile Include="Enum\HatchbackJaguar.cs" />
-    <Compile Include="Helper\IComparer.cs" />
     <Compile Include="IFullPriceServis.cs" />
     <Compile Include="Helper\PassengerCarComparer.cs" />
     <Compile Include="Model\PassengerCar.cs" />

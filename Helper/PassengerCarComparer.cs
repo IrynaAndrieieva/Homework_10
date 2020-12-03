@@ -1,31 +1,25 @@
 ﻿using System;
-using System.Collections.Generic;
+using System.Collections;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Homework_10
 {
-    public class PassengerCarComparer //пока он не работает, пытаюсь понять, как это сделать
+    /*
+    public class PassengerCarComparer : IComparable
     {
-        public int passengerCarComparer(object first, object second)
+        FullPriceServis fullPriceServis  = new FullPriceServis();
+        public int passengerCarComparer(object o)
         {
-            var x = first as PassengerCar;
-            var y = second as PassengerCar;
-
-            if (x.Consumption > y.Consumption)
-            {
-                return 1;
-            }
-            else if (x.Consumption < y.Consumption)
-            {
-                return -1;
-            }
+            PassengerCarComparer p = o as fullPriceServis;
+            if (p != null)
+                return this.Consumption.CompareTo(p.Consumption);
             else
-            {
-                return 0;
-            }
+                throw new Exception("Невозможно сравнить два объекта");
         }
+
     }
+    */
 }
 

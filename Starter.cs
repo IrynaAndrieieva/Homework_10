@@ -27,6 +27,19 @@ namespace Homework_10
             Console.WriteLine("_____________________________");
             Console.WriteLine($"The cost of cars in the fleet: {fullPrise.Price}");
             Console.ReadKey();
+
+            /*
+            PassengerCarComparer p1 = new PassengerCarComparer { };
+
+            PassengerCar[] automobile = new PassengerCar[] { p1 };
+            Array.Sort(automobile);
+
+            foreach (PassengerCar p in PassengerCarComparer)
+            {
+                Console.WriteLine($"{p.Name} - {p.Consumption}");
+            }
+            */
+            Console.ReadLine();
         }
     }
 }
