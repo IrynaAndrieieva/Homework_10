@@ -8,8 +8,8 @@ namespace Homework_10
 {
     public abstract class PassengerCar : Сabstand
     {
-        protected PassengerCar(double price, string createdBy)
-            : base(price, createdBy)
+        protected PassengerCar(double consumption, string createdBy)
+            : base(consumption, createdBy)
         {
         }
 
