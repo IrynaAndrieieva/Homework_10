@@ -18,7 +18,7 @@ namespace Homework_10
         public void Run()
         {
             var fullPrise = this.fullPriceServis.MakeCost();
-            //Array.Sort(fullPrise.PassengerCar, new PassengerCarComparer());
+            //Array.Sort(fullPrise.PassengerCar, new PassengerCarComparer()); //пока это не работает
 
             for (int i = 0; i < fullPrise.PassengerCar.Length; i++)
             {
