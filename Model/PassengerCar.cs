@@ -14,5 +14,6 @@ namespace Homework_10
         }
 
         public abstract TypeOfPassengerCar TypeOfPassengerCar { get; }
+
     }
 }

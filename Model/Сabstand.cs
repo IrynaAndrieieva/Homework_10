@@ -25,10 +25,6 @@ namespace Homework_10
 
         public abstract double Price { get; }
 
-        public int CompareTo(object cabstand)
-        {
-            var s = cabstand as Сabstand;
-            return s != null ? this.Name.CompareTo(s.Name) : throw new Exception("We can't compare to same object");
-        }
     }
+
 }

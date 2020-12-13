@@ -17,16 +17,19 @@ namespace Homework_10
 
         public void Run()
         {
-            var fullPrise = this.fullPriceServis.MakeCost();
-            //Array.Sort(fullPrise.PassengerCar, new PassengerCarComparer());
+            
+            var fullPrice = this.fullPriceServis.MakeCost();
+            Array.Sort(fullPrice.PassengerCar, new PassengerCarComparer());
 
-            for (int i = 0; i < fullPrise.PassengerCar.Length; i++)
+            for (int i = 0; i < fullPrice.PassengerCar.Length; i++)
             {
-                Console.WriteLine($"\nName: {fullPrise.PassengerCar[i].Name} \nСonsumption: {fullPrise.PassengerCar[i].Consumption} \nPrice: {fullPrise.PassengerCar[i].Price}");
+                Console.WriteLine($"\nName: {fullPrice.PassengerCar[i].Name} \nPrice: {fullPrice.PassengerCar[i].Price} \nConsumption: {fullPrice.PassengerCar[i].Consumption}");
             }
-            Console.WriteLine("_____________________________");
-            Console.WriteLine($"The cost of cars in the fleet: {fullPrise.Price}");
-            Console.ReadKey();
+
+            Console.WriteLine($"The cost of cars in the fleet: {fullPrice.Price}");
+
+
+            Console.ReadLine();
         }
     }
 }
